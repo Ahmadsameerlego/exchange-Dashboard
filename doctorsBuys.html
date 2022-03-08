@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/mai-ltr.css"></link> -->
+    
+    <title> الصفحةالرئيسية</title>
+</head>
+<body>
+    <!-- start header of dashboard -->
+    <div class="header">
+        <aside class="d-flex justify-content-between">
+            <div>
+                <!-- toggle icon -->
+                <span>
+                    <i class="fas fa-bars" onclick="toggleScreen()"></i>
+                </span>
+
+                <h3>الدكاترة المسجلين</h3>
+            </div>
+            <div class="d-flex">
+                <div class="alert">
+                    <a href="#">
+                        <i class="far fa-bell"></i>
+                        <span >1</span>
+                    </a>
+                </div>
+                <div class="slogan">
+                    <img src="photos/WhatsApp_Image_2022-03-08_at_10.15.54_AM__2_-removebg-preview.png" alt="">
+                </div>
+            </div>
+
+        </aside>
+    </div>
+    <!-- end header of dashboard -->
+
+
+    <!-- start list of main links -->
+    <div class="sidebar">
+
+        <!-- start ul links -->
+        <div class="mainLinks">
+            <ul style="list-style: none;">
+                <div class="logo">
+                    <img src="photos/WhatsApp Image 2022-03-08 at 10.15.53 AM.jpeg" alt="" class="logoImage">
+                </div>
+                <li>
+                    <a href="index.html">
+                        <i class="fas fa-home" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الرئيسية</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="universities.html">
+
+                        <i class="fas fa-graduation-cap" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الكليات</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="colleges.html">
+                        <i class="fas fa-copy" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الاقسام</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="regesterdStudents.html" >
+                        <i class="fas fa-user-graduate"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الطلاب المسجلين</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="active">
+                        <i class="fas fa-chalkboard-teacher"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الدكاترة المسجلين</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-university"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">طلبات التعاون</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="index.html">
+                        <i class="fas fa-credit-card"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">طلبات الشراء</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+
+                        <i class="fas fa-file" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">التقارير</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-cog"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الاعدادت</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="fas fa-headset"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الدعم الفني</h4>
+                    </a>
+                </li>
+
+                <li class="logOut">
+                    <a href="#" class="d-flex flex-column">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <p>تسجيل الخروج</p>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- end ul links -->
+    </div>
+    <!-- end list of main links -->
+
+
+    <div class="content">
+        <div class="studentBuys">
+            <div class="studentInfo">
+
+                <span class="deleteOreder"><i class="far fa-trash-alt"></i> حذف الدكتور</span>
+
+                <div> <img src="photos/personal.jpg" alt=""></div>
+
+                <div class="info d-fle flex-column">
+                    <p><i class="fas fa-user"></i> احمد سمير</p>
+                    <p><i class="fas fa-phone-alt"></i> 01013746111</p>
+                    <p><span>الكلية</span> هندسة</p>
+                </div>
+
+                <div class="info d-fle flex-column">
+                    <p><i class="fas fa-envelope"></i> dfd@example.com</p>
+                    <p><span>عدد مرات الشراء</span> 22</p>
+                    <p><span>الدرجة العلمية</span> بكالريوس</p>
+                </div>
+
+                <div class="info d-fle flex-column">
+
+                    <p><span>اجمالي تكلفة الشراء</span> 4554 ريال سعودي</p>
+                </div>
+
+            </div>
+            <!-- table info -->
+            <div class="tableContent">
+                <h3>سجل الشراء</h3>
+            </div>
+
+            <table class="buysTable">
+                <thead>
+                    <tr>
+                        <td>اسم المادة</td>
+                        <td>سعر المادة</td>
+                        <td>تاريخ الشراء</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><img src="photos/Group 7859.png" alt=""> تسويق</td>
+                        <td>50 ريال سعودى</td>
+                        <td><i class="fas fa-calendar-week"></i> 1/9/2021</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="photos/Group 7859.png" alt=""> تسويق</td>
+                        <td>50 ريال سعودى</td>
+                        <td><i class="fas fa-calendar-week"></i> 1/9/2021</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="photos/Group 7859.png" alt=""> تسويق</td>
+                        <td>50 ريال سعودى</td>
+                        <td><i class="fas fa-calendar-week"></i> 1/9/2021</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        
+    </div>
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    
+    <script src="js/main.js"></script>
+
+
+</body>
+</html>

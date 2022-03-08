@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="/DataTables/datatables.css">
+    <link rel="stylesheet"  href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+
+    <link rel="stylesheet" href="/resources/demos/style.css">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mai-ltr.css"></link>
+    
+    <title> الصفحةالرئيسية</title>
+</head>
+<body>
+    <!-- start header of dashboard -->
+    <div class="header">
+        <aside class="d-flex justify-content-between">
+            <div>
+                <!-- toggle icon -->
+                <span>
+                    <i class="fas fa-bars" onclick="toggleScreen()"></i>
+                </span>
+
+                <h3>الكيات , اضافة كلية</h3>
+            </div>
+            <div class="d-flex">
+                <div class="alert">
+                    <a href="#">
+                        <i class="far fa-bell"></i>
+                        <span >1</span>
+                    </a>
+                </div>
+                <div class="slogan">
+                    <img src="photos/WhatsApp_Image_2022-03-08_at_10.15.54_AM__2_-removebg-preview.png" alt="">
+                </div>
+            </div>
+
+        </aside>
+    </div>
+    <!-- end header of dashboard -->
+
+
+    <!-- start list of main links -->
+    <div class="sidebar">
+
+        <!-- start ul links -->
+        <div class="mainLinks">
+            <ul style="list-style: none;">
+                <div class="logo">
+                    <img src="photos/WhatsApp Image 2022-03-08 at 10.15.53 AM.jpeg" alt="" class="logoImage">
+                </div>
+                <li>
+                    <a href="index.html">
+                        <i class="fas fa-home" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الرئيسية</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="universities.html"  class="active">
+
+                        <i class="fas fa-graduation-cap" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الكليات</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="colleges.html">
+                        <i class="fas fa-copy" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الاقسام</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="regesterdStudents.html">
+                        <i class="fas fa-user-graduate"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الطلاب المسجلين</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="regesterdDoctors.html">
+                        <i class="fas fa-chalkboard-teacher"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الدكاترة المسجلين</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cooperationOreders.html">
+                        <i class="fas fa-university"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">طلبات التعاون</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="BuysOrder.html">
+                        <i class="fas fa-credit-card"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">طلبات الشراء</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="reports.html">
+
+                        <i class="fas fa-file" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">التقارير</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="setting.html">
+                        <i class="fas fa-cog"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الاعدادت</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="technicalSupport.html">
+                        <i class="fas fa-headset"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الدعم الفني</h4>
+                    </a>
+                </li>
+
+                <li class="logOut">
+                    <a href="login.html" class="d-flex flex-column">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <p>تسجيل الخروج</p>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- end ul links -->
+    </div>
+    <!-- end list of main links -->
+
+
+    <div class="content">
+        
+        <div class="form1">
+            <div class="form">
+                <form action="universities.html">
+
+                    <div class="d-flex">
+                        <label for="text">نوع الكلية</label> <i class="fas fa-asterisk"></i>
+                    </div>
+                    <input type="text" id="text" placeholder="كلية الهندسة">
+    
+                    
+                    <div class="preview collegeSlogan">
+                        <div class="d-flex justify-content-start">
+                            <p>شعار الكلية</p><i class="fas fa-asterisk"></i>
+                        </div>
+                        
+                        <div class="d-flex flex-wrap parent-img">
+                            <div class="drop-box drop-box2 mr-2 ml-2">
+                                <div class="text-center m-2 box-up w-100">
+                                    <div class="images-upload-block">
+                                        <label class="upload-img upload-img-2">
+                                            <span><img src="photos/Group 22979.png" alt="" style="width: 15%;"></span>
+                                            <input type="file" accept="image/*" class="form-control image-uploader" name="imageArr" required="">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="preview">
+                        <div class="d-flex justify-content-start">
+                            <p>صورة الكلية</p><i class="fas fa-asterisk"></i>
+                        </div>
+                        
+                        <div class="d-flex flex-wrap parent-img">
+                            <div class="drop-box mr-2 ml-2">
+                                <div class="text-center m-2 box-up w-100">
+                                    <div class="images-upload-block">
+                                        <label class="upload-img">
+                                            <span><img src="photos/Group 22979.png" alt="" style="width: 15%;"></span>
+                                            <input type="file" accept="image/*" class="form-control image-uploader" name="imageArr" required="">
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    
+
+                    <div class="fullInput d-flex justify-content-between">
+                        <div class="flex-column difName">
+                            <div class="d-flex">
+                                <label for="text">عنوان الكلية</label> <i class="fas fa-asterisk"></i>
+                            </div>
+                            <input type="number" id="text" placeholder="رقم المبنى">
+                        </div>
+    
+                        <div class="flex-column difName"  style="margin-top: 22px;">
+                            <input type="text" id="text" placeholder="اسم الشارع">
+                        </div>
+    
+                        <div class="flex-column difName"style="margin-top: 22px;">
+                            <input type="text" id="text"  placeholder="الرمز البريدي">
+                        </div>
+    
+                    </div>
+
+    
+                    <div><button class="addColl">حفظ</button></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="/DataTables/datatables.js"></script>    
+    <script src="js/main.js"></script>
+</body>
+</html>

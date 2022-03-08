@@ -1,0 +1,123 @@
+body{
+    direction: ltr;
+    text-align: left;
+}
+
+/* start index page */
+.sidebar{left: 0;}
+@media(max-width:992px){
+    .sidebar{transform: translateX(-100%);}
+}
+.content{right: 0; left: auto;}
+.header{right: 0; left: auto;}
+.sidebar .mainLinks a #mIcon {
+    margin-right: 12px;
+}
+.sidebar .mainLinks a h4::after{left: -20px;}
+.sidebar .mainLinks a:hover h4 {
+    padding-left: 25px;
+}
+.sidebar .mainLinks a:hover h4::after {
+    left: 0;
+}  
+.logOut {
+    margin-left: 20px;
+}
+.logOut svg {
+    transform: rotate(0deg);
+}
+.cards .item .info {
+    margin-left: 20px;
+}
+.dataTables_filter input{padding-left: 35px !important;}
+.branch span{margin-right: 4px;}
+
+@media(max-width:992px){
+    .header aside h3{margin-left: 200px;}
+}
+@media(max-width:540px){
+    .header aside h3{margin-left: 45px !important;}
+}
+
+.fa-bars{left: 80px;}
+@media(max-width:540px){
+    .fa-bars{left: 10px;}
+}
+/* end index page */
+
+/* start login page */
+/* start login page */
+.formPage{
+    transform: translate(30%, 19%);
+}
+.formPage .contact .dir {
+    left: -4%;
+    transform: rotate(180deg);
+}
+.formPage .form img {
+    margin-left: 41%;
+}
+.formPage .form a {
+    margin-left: 36%;
+}
+.formPage .form a::before {
+    width: 57%;
+    left: 12px;
+}
+.formPage .form svg{left:10px}
+.formPage .contact .content p {
+    margin-right: 32%;
+    flex-direction: row-reverse;
+}
+.formPage .contact .content p span svg{margin-left: 10px;}
+.formPage.fp2{transform:translate(27% , 20%) !important}
+.formPage .form {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+.formPage .contact {
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius:10px;
+}
+.formPage .form img {
+    margin-left: 44%;
+}
+.formPage .contact .content p {
+    margin-right: 0 !important;
+}
+.newAcc {
+    margin-left: 29% !important;
+    widows: 100%;
+}
+@media (max-width: 768px){
+.formPage {
+    transform: translate(5%, 3%) !important;
+}
+.newAcc{width:50%}
+}
+/* end login page */
+.fa-asterisk{margin-left: 5px !important;}
+
+p.filterIn{margin-right: -7px;}
+.dropbtn svg{margin-left: 5px;}
+.studentsInfo .item .buys{right:10px; left: auto;}
+.studentsInfo .item .buys svg {
+    transform: rotate(180deg);
+}
+.studentsInfo .item svg{margin-right: 5px;}
+.addOreder {
+    float: right;
+    margin-right: 60px;
+}
+span.deleteOreder{right: 5px; left: auto;}
+.changeImage, .changeLink{right: 15px; left: auto;}
+.colleges .image .fa-trash-alt{left: 3px; right: 0!important;}
+.settingCotent .logoImage{margin-left: 30px;}
+.ui-state-active, .ui-widget-content .ui-state-active{
+    margin-left: 36px !important;
+    margin-right: -13px;
+}

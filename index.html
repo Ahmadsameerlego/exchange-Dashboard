@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="https://cdn.datatables.net/1.11.4/css/jquery.dataTables.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="stylesheet" href="css/mai-ltr.css"></link> -->
+    
+    <title> الصفحةالرئيسية</title>
+</head>
+<body>
+    <!-- start header of dashboard -->
+    <div class="header">
+        <aside class="d-flex justify-content-between">
+            <div>
+                <!-- toggle icon -->
+                <span>
+                    <i class="fas fa-bars" onclick="toggleScreen()"></i>
+                </span>
+
+                <h3>الرئيسية</h3>
+            </div>
+            <div class="d-flex">
+                <div class="alert">
+                    <a href="alert.html">
+                        <i class="far fa-bell"></i>
+                        <span >1</span>
+                    </a>
+                </div>
+                <div class="slogan">
+                    <img src="photos/WhatsApp_Image_2022-03-08_at_10.15.54_AM__2_-removebg-preview.png" alt="">
+                </div>
+            </div>
+
+        </aside>
+    </div>
+    <!-- end header of dashboard -->
+
+
+    <!-- start list of main links -->
+    <div class="sidebar">
+
+        <!-- start ul links -->
+        <div class="mainLinks">
+            <ul style="list-style: none;">
+                <div class="logo">
+                    <img src="photos/WhatsApp Image 2022-03-08 at 10.15.53 AM.jpeg" alt="" class="logoImage">
+                </div>
+                <li>
+                    <a href="index.html" class="active">
+                        <i class="fas fa-home" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الرئيسية</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="universities.html">
+
+                        <i class="fas fa-graduation-cap" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الكليات</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="colleges.html">
+                        <i class="fas fa-copy" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الاقسام</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="regesterdStudents.html">
+                        <i class="fas fa-user-graduate"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الطلاب المسجلين</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="regesterdDoctors.html">
+                        <i class="fas fa-chalkboard-teacher"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الدكاترة المسجلين</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="cooperationOreders.html">
+                        <i class="fas fa-university"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">طلبات التعاون</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="BuysOrder.html">
+                        <i class="fas fa-credit-card"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">طلبات الشراء</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="reports.html">
+                        <i class="fas fa-file" id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">التقارير</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="setting.html">
+                        <i class="fas fa-cog"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الاعدادت</h4>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="technicalSupport.html">
+                        <i class="fas fa-headset"  id="mIcon"></i>
+                        <h4 style="font-size: 12px; font-weight: 400;">الدعم الفني</h4>
+                    </a>
+                </li>
+
+                <li class="logOut">
+                    <a href="login.html" class="d-flex flex-column">
+                        <i class="fas fa-sign-out-alt"></i>
+                        <p>تسجيل الخروج</p>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <!-- end ul links -->
+    </div>
+    <!-- end list of main links -->
+
+
+    <div class="content">
+        <div class="row">
+            <div class="col-lg-8 col-md-12">
+                <!-- start card -->
+                <div class="cards d-flex justify-content-between flex-wrap">
+
+                    <div class="item d-flex justify-content-start align-items-center">
+                        <img src="photos/Group 32087.png" alt="">
+                        <div class="info d-flex flex-column">
+                            <span>87</span>
+                            <p>كلية</p>
+                        </div>
+                    </div>
+
+                    <div class="item d-flex justify-content-start align-items-center">
+                        <img src="photos/Group 32087.png" alt="">
+                        <div class="info  d-flex flex-column">
+                            <span>200</span>
+                            <p>قسم</p>
+                        </div>
+                    </div>
+
+                    <div class="item d-flex justify-content-start align-items-center">
+                        <img src="photos/Group 32186.png" alt="">
+                        <div class="info  d-flex flex-column">
+                            <span>500</span>
+                            <p>مادة</p>
+                        </div>
+                    </div>
+
+                    <div class="item d-flex justify-content-start align-items-center">
+                        <img src="photos/Group 32270.png" alt="">
+                        <div class="info d-flex flex-column">
+                            <span>234343 رس</span>
+                            <p style="font-size: 10px;">اجمالي المشتريات</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- end card -->
+
+                <!-- start data table -->
+                <div class="tableContent">
+                    <table id="table_id" class="display">
+                        <p style="position: absolute; font-weight: bold; top:13px; right:24px">الكليات</p>
+                        <thead>
+                            <tr>
+                                <th>الكلية</th>
+                                <th>عدد الاقسام</th>
+                                <th>عدد المواد</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="photos/amal.jfif" alt="">
+                                    كلية ادارة الاعمال
+                                </td>
+                                <td>20 قسم</td>
+                                <td>50 مادة</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="photos/amal.jfif" alt="">
+                                    كلية الطب
+                                </td>
+                                <td>20 قسم</td>
+                                <td>50 مادة</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <img src="photos/amal.jfif" alt="">
+                                    كلية الهندسة
+                                </td>
+                                <td>20 قسم</td>
+                                <td>50 مادة</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="photos/amal.jfif" alt="">
+                                    كلية الصيدلة
+                                </td>
+                                <td>20 قسم</td>
+                                <td>50 مادة</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="photos/amal.jfif" alt="">
+                                    كلية العلوم
+                                </td>
+                                <td>20 قسم</td>
+                                <td>50 مادة</td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <img src="photos/amal.jfif" alt="">
+                                    كلية العلوم التطبيقية
+                                </td>
+                                <td>20 قسم</td>
+                                <td>50 مادة</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+                <!-- end data table -->
+            </div>
+
+            <div class="col-lg-4 col-md-12">
+                <div class="datePicker">
+                    <div id="datepicker"></div>
+                </div>
+
+                <div class="totalBuys d-flex justify-content-between">
+                    <p class="total">اجمالي المشتريات</p>
+                    <p>
+                        <img src="photos/Group 32270.png" alt="">
+                        <span>3343 رس</span>
+                    </p>
+                </div>
+
+                <div class="pageInfo">
+
+                    <div class="domains d-flex justify-content-between">
+                        <p>الكليات</p>
+                        <p>مشتري</p>
+                        <p>الاجمالي</p>
+                    </div>
+
+                    <div class="branch d-flex justify-content-between">
+                        <div class="d-flex justify-content-start"><span>1</span><p> كلية الطب</p></div>
+                        <p class="num">20</p>
+                        <p>2332 رس</p>
+                    </div>
+
+                    <div class="branch d-flex justify-content-between">
+                        <div class="d-flex justify-content-start"><span>2</span><p> كلية الهندسة</p></div>
+                        <p class="num">20</p>
+                        <p>2332 رس</p>
+                    </div>
+
+                    <div class="branch d-flex justify-content-between">
+                        <div class="d-flex justify-content-start"><span>3</span><p> كلية الاعمال</p></div>
+                        <p class="num">20</p>
+                        <p>2332 رس</p>
+                    </div>
+
+                    <div class="branch d-flex justify-content-between">
+                        <div class="d-flex justify-content-start"><span>4</span><p> كلية الصيدلة</p></div>
+                        <p class="num">20</p>
+                        <p>2332 رس</p>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="https://cdn.datatables.net/1.11.4/js/jquery.dataTables.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    
+    <script src="js/main.js"></script>
+    <!-- data table plugin -->
+    <script>
+        $(document).ready( function () {
+            $('#table_id').DataTable({
+                "ordering": false,
+                "lengthChange": false,
+                "aLengthMenu": [
+                    [5, 10, 25, -1],
+                    [5, 10, 25, "All"]
+                ],
+                "iDisplayLength": 10,
+
+                "language": {
+                    "sProcessing": "جارٍ التحميل...",
+                    "sLengthMenu": "أظهر _MENU_ مدخلات",
+                    "sZeroRecords": "لم يعثر على أية سجلات",
+                    "sInfo": "إظهار _START_ إلى _END_ من أصل _TOTAL_ مدخل",
+                    "sInfoEmpty": "يعرض 0 إلى 0 من أصل 0 سجل",
+                    "sInfoFiltered": "(منتقاة من مجموع _MAX_ مُدخل)",
+                    "sInfoPostFix": "",
+                    "searchPlaceholder": "ابحث عن اسم الكلية , المادة , القسم ....",
+                    "sSearch": "",
+                    "search": '<i class="fas fa-search" aria-hidden="true" style="color:rgb(134, 126, 126);margin-right:10px; transform: translateX(40px);"></i>',
+                    // "search": '<i class="fas fa-search" aria-hidden="true" style="color:rgb(134, 126, 126);margin-right:10px; transform: translateX(-23px);"></i>', // for English design
+                    "sUrl": "",
+                    "oPaginate": {
+                        "sFirst": "الأول",
+                        "sPrevious": "السابق",
+                        "sNext": "التالي",
+                        "sLast": "الأخير"
+                    }
+                }
+            });
+        } );
+    </script>
+
+
+
+    <!-- date picker pugin -->
+    <script>
+        $( function() {
+        $( "#datepicker" ).datepicker({
+            language: "ar",
+            closeText: "إغلاق",
+                prevText: "&#x3C;السابق",
+                nextText: "التالي&#x3E;",
+                currentText: "اليوم",
+                monthNames: ["يناير", "فبراير", "مارس", "أبريل", "مايو", "يونيو", "يوليو", "أغسطس", "سبتمبر", "أكتوبر", "نوفمبر", "ديسمبر"],
+                monthNamesShort: ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"],
+                dayNames: ["الأحد", "الاثنين", "الثلاثاء", "الأربعاء", "الخميس", "الجمعة", "السبت"],
+                // dayNamesShort: ["أحد", "اثنين", "ثلاثاء", "أربعاء", "خميس", "جمعة", "سبت"],
+                dayNamesMin: ["الاحد" , "الاثنين", "الثلاثاء", "الاربعاء" , "الخميس", "الجمعة" , "السبت"],
+                weekHeader: "أسبوع",
+                isRTL: false,
+                showMonthAfterYear: false,
+                yearSuffix: ""
+        });
+        } );
+    </script>
+</body>
+</html>
